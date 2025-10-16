@@ -2,9 +2,18 @@
 
 This project is an image search engine that allows users to upload an image and find similar images from a preloaded database. It uses the ResNet50 model for feature extraction and cosine similarity for finding similar images.
 
+# Demo Video
+
+https://github.com/user-attachments/assets/ec4970d6-06ab-4c40-913b-6e1bd16a0776
+
+# Deploy Link
+https://visualappuctsmatch-arw6wp3yjceznr4fztevpu.streamlit.app/
+
+
 ## Features
 
 - **Image Upload**: Users can upload an image in JPG format.
+- **Url Upload**: Users can upload product image url and watch the similar product.
 - **Feature Extraction**: Extracts features from the uploaded image using a pre-trained ResNet50 model.
 - **Similarity Search**: Finds similar images from the database using cosine similarity.
 - **Adjustable Parameters**: Users can adjust the similarity threshold and the number of similar images to display.
@@ -19,7 +28,7 @@ This project is an image search engine that allows users to upload an image and 
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/nasirovsh/ecommerce-visual-search.git
+    https://github.com/ashishkumar91/Visual_Products_Matcher
     cd ecommerce-visual-search
     ```
 
@@ -51,6 +60,7 @@ This project is an image search engine that allows users to upload an image and 
 1. **Prepare the image database**:
    - Place your database images in the `db/` directory.
    - Ensure all images are in JPG format.
+   - over 60+ products images in the dataset
 
 2. **Run the Streamlit app**:
    
@@ -78,7 +88,6 @@ This project is an image search engine that allows users to upload an image and 
 - `requirements.txt`: Lists the dependencies required for the project.
 - `db/`: Directory containing the image database.
 - `README.md`: This file, containing project documentation.
-- `LICENSE`: The license file for the project.
 
 ## Dependencies
 
@@ -100,14 +109,6 @@ This project is an image search engine that allows users to upload an image and 
 - If you encounter memory issues, try reducing the number of images in your database or upgrading your hardware.
 - Ensure your uploaded images are in JPG format and are not corrupted.
 - If the app is slow, it might be due to the initial loading of the database. Subsequent runs should be faster due to caching.
-
-## Contributing
-
-Contributions to this project are welcome. Please fork the repository and submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ## Acknowledgements
 
