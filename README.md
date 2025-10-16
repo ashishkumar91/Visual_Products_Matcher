@@ -1,6 +1,6 @@
 # Image Search Engine
 
-This project is an image search engine that allows users to upload an image and find similar images from a preloaded database. It uses the ResNet50 model for feature extraction and cosine similarity for finding similar images.
+This project is an image search engine that allows users to upload an image or url and find similar product images from a preloaded database. It uses the ResNet50 model for feature extraction and cosine similarity for finding similar product images.
 
 # Demo Video
 
